@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="get">
+        <div>
+            <label for="produto">Produto:</label>
+            <input type="text" name="produto" id="produto">
+            <br><br>
+        <fieldset>
+            <legend>Escolha o Estado Civil</legend>
+            <input type="radio" name="estadocivil" value="solteiro" checked>Solteiro
+            <input type="radio" name="estadocivil" value="casado">Casado
+            <input type="radio" name="estadocivil" value="divorciado">Divorciado
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Sei la</legend>
+            <input type="checkbox" name="esportes[]" value="Natação">Natação
+            <input type="checkbox" name="esportes[]" value="Futebol">Futebol
+        </fieldset>
+        </div>
+        <button type="submit">Buscar</button>
+    </form>
+</body>
+</html>
