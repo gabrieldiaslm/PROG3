@@ -14,13 +14,16 @@
     
 }
 #codigos{
-    width: 650px;
+    width:700px;
     height: 100px;
     border-radius: 100px;
+    margin: auto;
+    display: block;
 }
 #gojo{
     width: 300pt;
-    margin-left: 100pt;
+    margin: auto;
+    display: block;
 }
 
 ul > li {
