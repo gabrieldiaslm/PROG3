@@ -37,3 +37,7 @@ h2 + p {
 .classe{
     color:blue;
 }
+
+#next:visited{
+    color:gray;
+}

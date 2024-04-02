@@ -1,0 +1,16 @@
+#p2 {
+    font-size: 2em;
+}
+body {
+    background-color: rgb(0, 153, 255);
+
+}
+#saul {
+    width: 100px;
+    height: 100px;
+    border-color: #ff4747;
+    border-style: outset;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;    
+}
