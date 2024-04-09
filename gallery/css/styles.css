@@ -1,0 +1,53 @@
+body {
+  font-family: Roboto;
+  background-color: lightgreen;
+}
+
+main {
+  border: 10px solid greenyellow;
+  background-color: lightcoral;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  background-color: #ff4e4e;
+  border: 1px solid red;
+  text-shadow: -0px 0 black, 0 0px black, 4px 0 black, 0 0px black;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.photo {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.photo:hover {
+  transform: scale(1.10);
+}
+
+img {
+  width: 180px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+@media (max-width: 800px) {
+  .photo {
+    flex-basis: 48%;
+  }
+}
+
+@media (max-width: 500px) {
+  .item {
+    flex-basis: 98%;
+  }
+}
