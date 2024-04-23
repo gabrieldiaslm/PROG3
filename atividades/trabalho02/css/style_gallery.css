@@ -44,20 +44,13 @@ footer{
     margin: 2em 0 4em 0;
     text-align: center;
 }
-footer address{
-    margin: 0 auto;
-}
-
-
-input {
-    margin-top: 3px;
-    padding:2px;
-    background-color: #F2AC29;
-    border: 0.5px solid #262614;
-}
 
 td img {
     width: 200px;
     height: 200px;
     border: 2px solid blue;
+}
+
+.gallery_main{
+
 }
