@@ -10,10 +10,17 @@
 </head>
 <body>
     <main>
-
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio neque non voluptatum eius impedit, adipisci nobis tenetur accusamus facilis blanditiis ullam natus eum, sequi repellat deserunt at veritatis ab recusandae?</p>
+        <img src="../../atividades/trabalho02/images/los1.jpg" alt="">
+        <button type="button">CLIQUE AQUI</button>
     </main>
     <script>
-        
+        function buttonClick() {
+            console.log('Botão Clicado')
+            window.alert("botão clicado")
+        }
+        let btn = document.querySelector('button')
+        btn.addEventListener('click', buttonClick)
     </script>
 </body>
 </html>
