@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+a{
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 1px 15px;
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(255, 213, 213);
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input:hover{
+    border: red;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 5px red;
+}
+
+#msg {
+    margin: 20px 25%;
+    background-color: aqua;
+    font-size: 2em;
+}

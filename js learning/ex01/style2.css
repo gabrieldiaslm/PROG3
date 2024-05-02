@@ -1,0 +1,38 @@
+*{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#pannel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 5em;
+    background-color: lightblue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-top: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    visibility: hidden;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 2em;
+    background-color: lightcoral;
+    border: 2px solid red;
+    color: white;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 0.75rem;
+}
+

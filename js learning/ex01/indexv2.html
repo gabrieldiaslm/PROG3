@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="./index.html">voltar</a>
+    <div id="pannel">
+        NÓS GOSTA É DISSO
+    </div>
+    <div id="button">Revelação Profética</div>
+    <script>
+        const showMessage = (msg) => {
+        const pannel = document.getElementById('pannel')
+        pannel.style.visibility = 'visible'
+        }
+        window.addEventListener('DOMContentLoaded', () => {
+            const button = document.getElementById('button')
+            button.addEventListener('click', () => {
+                showMessage('Está é a mensagem qualquer gerada pelo programador.')
+            })            
+        })
+    </script>
+</body>
+</html>
