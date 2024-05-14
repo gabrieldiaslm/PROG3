@@ -1,0 +1,39 @@
+*{  
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: #bce9bc;
+}
+h1{
+    background-color: lightgreen;
+    text-align: center;
+}
+.frame{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0 auto;
+    background-color: lightgreen;
+}
+@media (max-width:800px){
+    .frame{
+        width: 50%;
+        background-color: lightcyan;
+    }
+}
+@media (max-width:450px){
+    .frame{
+        background-color: lightpink;
+        width: 75%;
+        padding-bottom: 1em;
+    }
+}
+.field{
+    margin-bottom: 0.5em;
+}
+
+.field input{
+    float:right;
+    width: 75%;
+}
