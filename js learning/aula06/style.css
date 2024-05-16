@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: #e7e7be;
+}
+img {
+    max-width: 40%;
+    height: auto;      
+}
+.banner {
+    padding: 35px;
+    background-image: url(./img/catsbg.png);
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+h1{
+    background-color: rgba(145, 0, 0, 0.589);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
