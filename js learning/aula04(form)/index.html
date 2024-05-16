@@ -8,31 +8,39 @@
     <title>Formulário de Cria</title>
 </head>
 <body>
-    <div class="box">
-        <h2>Cadastro de Aluno</h2>
-        <form name="student" method="post">
-            <div class="field">
-                <label for="student-id">Matrícula:</label>
-                <input type="number" name="student-id" id="student-id">
-            </div>
+  <div class="form-frame">
+    <h2>Cadastro de Aluno</h2>
+    <form name="student" method="get" action="./data.html" novalidate>
+      <div class="form-field">
+        <label for="student-id">Matrícula</label>
+        <input id="student-id" name="student-id" type="number">
+        <span class="form-error"></span>
+      </div>
 
-            <div class="field">
-                <label for="student-name">Nome:</label>
-                <input type="text" name="student-name" id="student-name">
-            </div>
+      <div class="form-field">
+        <label for="student-name">Nome</label>
+        <input id="student-name" name="student-name" type="text">
+        <span class="form-error"></span>
+      </div>
 
-            <div class="field">
-                <label for="student-email">E-mail:</label>
-                <input type="email" name="student-email" id="student-email">
-            </div>
+      <div class="form-field">
+        <label for="student-email">E-mail</label>
+        <input id="student-email" name="student-email" type="email">
+        <span class="form-error"></span>
+      </div>
 
-            <div class="field">
-                <label for="student-born">Data de Nascimento:</label>
-                <input type="date" name="student-born" id="student-born">
-            </div>
-            <button type="submit">Cadastrar</button>
-        </form>
-    </div>
-    <script src="form.js"></script>
+      <div class="form-field">
+        <label for="student-born">Data Nascimento</label>
+        <input id="student-born" name="student-born" type="date">
+        <span class="form-error"></span>
+      </div>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+
+  <script src="form.js"></script>
 </body>
+
+
 </html>
