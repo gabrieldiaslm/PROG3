@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Canvas</title>
+</head>
+<body onload="load()">
+    <canvas id="scene"></canvas>
+    <script>
+    var x_obj1 = 0;
+    var y_obj2 = 0;
+    function load(){
+        var scene = document.getElementById('scene')
+        var ctx = scene.getContext('2d')
+
+        ctx.fillStyle = '#FFFFFF'
+        ctx.fillRect(0,0, 800, 600)
+
+        ctx.fillStyle = 'black'
+        ctx.fillRect(x_obj1,30, 50, 30)
+        
+        ctx.fillStyle = 'red'
+        ctx.fillRect(60, y_obj2, 50, 30)
+
+        x_obj1 = x_obj1 + 5
+        y_obj2 = y_obj2 + 5
+
+        if (x_obj1 > 300){
+            x_obj1 = 0
+        }
+        if (y_obj2 > 300){
+            y_obj2 = 0
+        }
+
+    }
+    setInterval('load()', 50)
+    </script>
+</body>
+</html>
